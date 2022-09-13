@@ -7,7 +7,7 @@ if len(sys.argv) <= 1:
     sys.exit(2)
 
 # Create a server socket, bind it to a port and start listening
-tcpSerPort = 8000
+tcpSerPort = 9000
 tcpSerSock = socket(AF_INET, SOCK_STREAM)
 
 
